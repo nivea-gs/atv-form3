@@ -7,7 +7,7 @@
         $tarefas = $_POST["tarefas"];
         $atrasos = $_POST["atrasos"];
 
-        if($tarefas >= 20 && $atrasos <= 1) {
+        if($tarefas >= 20 && $atrasos == 1) {
             $resultado = "Excelente";
         } 
         elseif($tarefas >= 25  && $atrasos == 0){
