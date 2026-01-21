@@ -21,13 +21,18 @@
         </div>
         <br>
         <div>
-            <label for="atrasos">Número de Tarefas:</label>
+            <label for="tarefas">Número de Tarefas:</label>
             <input type="number" id="tarefas" name="tarefas" min="0" value="0" required>
         </div>
         <br>
         <div>
             <label for="atrasos">Número de Atrasos:</label>
             <input type="number" id="atrasos" name="atrasos" min="0" value="0" required>
+        </div>
+        <br>
+        <div>
+            <label for="setor">Setor do Funcionário:</label>
+            <input type="text" id="setor" name="setor" required>
         </div>
         <br>
         <button type="submit">Enviar Dados</button>
